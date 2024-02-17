@@ -9,7 +9,7 @@ colors = ["red", "green", "blue", "orange", "purple", "yellow", "violet", "gray"
 
 
 def draw_shape(n_sides):
-    """"""
+    """"gets the angle and draw the shape"""
     angle = 360 / int(n_sides)
     for _ in range(n_sides):
         tim.forward(100)
