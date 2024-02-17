@@ -2,8 +2,8 @@
 import random
 from turtle import Turtle, Screen
 
-tim = Turtle()
-screen = Screen()
+tim = Turtle()  # Turtle class
+screen = Screen()  # Screen class
 
 colors = ["red", "green", "blue", "orange", "purple", "yellow", "violet", "gray"]
 
@@ -16,4 +16,4 @@ for line in range(3, 11):
         tim.forward(100)
         tim.left(angle)
 
-screen.exitonclick()
+screen.exitonclick()  # Shows the white box
